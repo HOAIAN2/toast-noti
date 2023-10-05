@@ -5,9 +5,7 @@ type ToastOptions = {
     appendOnTopBody?: boolean;
 };
 export default class Toast {
-    private duration;
-    private position;
-    private pauseOnHover;
+    config: ToastOptions;
     readonly container: HTMLDivElement;
     private static template;
     constructor(options?: ToastOptions);
@@ -16,6 +14,6 @@ export default class Toast {
     success(message: string): void;
     error(message: string): void;
     alert(message: string): void;
-    close(DOM_ELEMENT: HTMLDivElement): void;
+    private close;
 }
 export {};
