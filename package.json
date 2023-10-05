@@ -1,0 +1,26 @@
+{
+  "name": "toast-noti",
+  "version": "1.0.0",
+  "description": "A super simple toast noti library",
+  "main": "dist/toast.js",
+  "types": "dist/toast.d.ts",
+  "files": [
+    "./dist/toast.d.ts",
+    "./dist/toast.js",
+    "./dist/toast.style.css"
+  ],
+  "scripts": {
+    "build": "esbuild src/* --minify --outdir=dist"
+  },
+  "keywords": [
+    "Toast",
+    "Message",
+    "Noti"
+  ],
+  "author": "HOAI AN",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.19.4",
+    "typescript": "^5.2.2"
+  }
+}
