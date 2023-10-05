@@ -1,6 +1,6 @@
 {
   "name": "toast-noti",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A super simple toast noti library",
   "main": "dist/toast.js",
   "types": "dist/toast.d.ts",
@@ -10,7 +10,7 @@
     "./dist/toast.style.css"
   ],
   "scripts": {
-    "build": "esbuild src/* --minify --outdir=dist"
+    "build": "tsc && esbuild src/* --minify --outdir=dist"
   },
   "keywords": [
     "Toast",
