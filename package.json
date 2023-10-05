@@ -1,6 +1,6 @@
 {
   "name": "toast-noti",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A super simple toast noti library",
   "main": "dist/toast.js",
   "types": "dist/toast.d.ts",
@@ -9,6 +9,10 @@
     "./dist/toast.js",
     "./dist/toast.style.css"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HOAIAN2/toast-noti.git"
+  },
   "scripts": {
     "build": "tsc && esbuild src/* --minify --outdir=dist"
   },
@@ -19,6 +23,10 @@
   ],
   "author": "HOAI AN",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HOAIAN2/toast-noti/issues"
+  },
+  "homepage": "https://github.com/HOAIAN2/toast-noti#readme",
   "devDependencies": {
     "esbuild": "^0.19.4",
     "typescript": "^5.2.2"
