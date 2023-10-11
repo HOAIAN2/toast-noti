@@ -1,7 +1,7 @@
 {
   "name": "toast-noti",
-  "version": "1.0.3",
-  "description": "A super simple toast noti library",
+  "version": "1.0.4",
+  "description": "A super simple toast noti library with pure Javascript",
   "main": "dist/toast.js",
   "types": "dist/toast.d.ts",
   "files": [

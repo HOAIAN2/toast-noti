@@ -5,9 +5,9 @@ type ToastOptions = {
     appendOnTopBody?: boolean;
 };
 export default class Toast {
+    #private;
     config: ToastOptions;
     readonly container: HTMLDivElement;
-    private static template;
     constructor(options?: ToastOptions);
     private createElement;
     private handleEvent;
